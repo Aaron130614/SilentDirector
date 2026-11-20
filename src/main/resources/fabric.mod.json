@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "silentdirector",
+	"version": "${version}",
+	"name": "SilentDirector",
+	"description": "Server-side Silent Director mod for Fabric 1.21.1.",
+	"authors": [],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.silentdirector.SilentDirectorMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
